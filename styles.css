@@ -159,12 +159,13 @@ footer p {
 
   .intro {
     grid-template-columns: 1fr;
-    gap: 24px;
+    gap: 20px;
     padding-top: 34px;
   }
 
   .profile-photo {
     order: -1;
-    width: min(285px, 82vw);
+    justify-self: center;
+    width: clamp(170px, 48vw, 210px);
   }
 }
